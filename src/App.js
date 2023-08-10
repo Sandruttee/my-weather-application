@@ -1,9 +1,11 @@
+import React from "react";
 import "./App.css";
+import Weather from "./Weather";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <h1>Weather application</h1>
+      <Weather />
       <footer>
         This project was coded by Sandra Plačenytė and is{" "}
         <a
@@ -17,5 +19,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
