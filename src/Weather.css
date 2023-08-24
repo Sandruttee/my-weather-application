@@ -10,15 +10,19 @@
 }
 
 .Weather h1 {
-  font-size: 24px;
+  font-size: 44px;
   font-weight: 100;
   line-height: 29px;
-  margin: 20px 0 0 0;
+  margin: 30px 0 0 0;
+  text-align: center;
+  letter-spacing: 10px;
 }
 
 .Weather ul {
   margin: 0;
   padding: 0;
+  margin-top: 25px;
+  text-align: center;
 }
 
 .Weather li {
@@ -32,7 +36,7 @@
   margin-right: 10px;
   width: 64px;
 }
-/* css video 3:40 left - how to make a float to fix the img position */
+
 .Weather .temperature {
   font-weight: 400;
   color: black;
